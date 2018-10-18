@@ -1,0 +1,220 @@
+{
+  "restName": "Jeevan's Amazing Restaurant",
+  "money": 15.0,
+  "hour": 0.0,
+  "day": 0,
+  "market" : {
+    "food": [
+      {
+        "name": "tomatoes",
+        "basePrice": 1.0,
+        "lowerPop": 0,
+        "higherPop": 6
+      },
+      {
+        "name": "lettuce",
+        "basePrice": 1.1,
+        "lowerPop": 7,
+        "higherPop": 18
+      },
+      {
+        "name": "chicken",
+        "basePrice": 2.4,
+        "lowerPop": 19,
+        "higherPop": 28
+      },
+      {
+        "name": "mushrooms",
+        "basePrice": 0.75,
+        "lowerPop": 29,
+        "higherPop": 34
+      },
+      {
+        "name": "curry",
+        "basePrice": 1.3,
+        "lowerPop": 35,
+        "higherPop": 43
+      },
+      {
+        "name": "pizzaSlice",
+        "basePrice": 1.0,
+        "lowerPop": 44,
+        "higherPop": 55
+      },
+      {
+        "name": "turkey",
+        "basePrice": 2.6,
+        "lowerPop": 56,
+        "higherPop": 64
+      },
+      {
+        "name": "sandwitch",
+        "basePrice": 5.1,
+        "lowerPop": 65,
+        "higherPop": 70
+      },
+      {
+        "name": "pickels",
+        "basePrice": 0.4,
+        "lowerPop": 56,
+        "higherPop": 64
+      },
+      {
+        "name": "turkey",
+        "basePrice": 2.6,
+        "lowerPop": 56,
+        "higherPop": 64
+      },
+      {
+        "name": "beef",
+        "basePrice": 2.0,
+        "lowerPop": 65,
+        "higherPop": 72
+      },
+      {
+        "name": "sushi",
+        "basePrice": 2.8,
+        "lowerPop": 73,
+        "higherPop": 81
+      },
+      {
+        "name": "pork",
+        "basePrice": 1.5,
+        "lowerPop": 82,
+        "higherPop": 92
+      },
+      {
+        "name": "pita",
+        "basePrice": 0.2,
+        "lowerPop": 93,
+        "higherPop": 99
+      },
+      {
+        "name": "specialSuace",
+        "basePrice": 15.0,
+        "lowerPop": 99,
+        "higherPop": 100
+      }
+    ],
+    "equipment": [
+      {
+        "name": "spatuala",
+        "price": 3.5,
+        "upkeep": 0.75
+      },
+      {
+        "name": "magic",
+        "price": 6.0,
+        "upkeep": 1.0
+      },
+      {
+        "name": "pan",
+        "price": 3.5,
+        "upkeep": 0.6
+      },
+      {
+        "name": "pot",
+        "price": 1.65,
+        "upkeep": 0.4
+      }
+    ],
+    "recipe": [
+      {
+        "name": "gyro",
+        "price": 1.25,
+        "food": [
+          "turkey",
+          "beef",
+          "pita"
+        ],
+        "equipment": [
+          "pot"
+        ],
+        "lowerPop": 0,
+        "higherPop": 19,
+        "time": 0.25
+      },
+      {
+        "name": "salad",
+        "price": 0.75,
+        "food": [
+          "mushrooms",
+          "tomatoes",
+          "lettuce"
+        ],
+        "equipment": [
+          "pot"
+        ],
+        "lowerPop": 20,
+        "higherPop": 34,
+        "time": 0.1
+      },
+      {
+        "name": "meatLover",
+        "price": 1.40,
+        "food": [
+          "chiken",
+          "beef",
+          "pork"
+        ],
+        "equipment": [],
+        "lowerPop": 35,
+        "higherPop": 49,
+        "time": 0.35
+      },
+      {
+        "name": "sushiSandwitch",
+        "price": 2,
+        "food": [
+          "sushi",
+          "sandwitch"
+        ],
+        "equipment": [
+          "pan"
+        ],
+        "lowerPop": 50,
+        "higherPop": 70,
+        "time": 0.5
+      },
+      {
+        "name": "pizzaWithPizzazz",
+        "price": 2.00,
+        "food": [
+          "pizzaSlice",
+          "beef",
+          "pita"
+        ],
+        "equipment": [
+          "spatuala"
+        ],
+        "lowerPop": 71,
+        "higherPop": 86,
+        "time": 0.4
+      },
+      {
+        "name": "specialSucculantCurry",
+        "price": 2.75,
+        "food": [
+          "curry",
+          "specialSauce",
+          "mushrooms",
+          "pickels",
+          "pork"
+        ],
+        "equipment": [
+          "pot",
+          "pan",
+          "magic"
+        ],
+        "lowerPop": 87,
+        "higherPop": 100,
+        "time": 0.67
+      }
+    ]
+  },
+  "menu": {
+    "recipe": [],
+    "food": [],
+    "equipment": []
+  }
+}
